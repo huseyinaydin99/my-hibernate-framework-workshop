@@ -91,7 +91,7 @@ public class MainApp {
             }
             System.out.println("-------------------------------------");
         } catch (Exception e) {
-            System.err.println("Error :" + e);
+            System.err.println("Hata :" + e);
             session.getTransaction().rollback();
         } finally {
             session.close();
